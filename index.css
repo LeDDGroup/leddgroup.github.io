@@ -1,3 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+html,
+body {
+  height: 100vh;
+  overflow: scroll;
+}
+body {
+  font-family: "Roboto";
+}
+
+body {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+}
+
+.hero-container {
+  margin-top: 25vh;
+  display: grid;
+  place-content: center;
+  h1 {
+    font-size: 2em;
+  }
+}
