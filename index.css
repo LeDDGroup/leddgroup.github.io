@@ -18,9 +18,3 @@ body {
     rgb(225, 234, 238) 90%
   );
 }
-
-.hero-container {
-  margin-top: 25vh;
-  display: grid;
-  place-content: center;
-}
