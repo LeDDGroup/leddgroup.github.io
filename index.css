@@ -23,7 +23,4 @@ body {
   margin-top: 25vh;
   display: grid;
   place-content: center;
-  h1 {
-    font-size: 2em;
-  }
 }
