@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "wrangler pages deploy dist/ --project-name homepage"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@unocss/preset-wind4": "^66.3.2",
     "autoprefixer": "^10.4.21",
     "unocss": "^66.3.2",
-    "vite": "npm:rolldown-vite@^7.0.4"
+    "vite": "npm:rolldown-vite@^7.0.4",
+    "wrangler": "^4.23.0"
   }
 }
