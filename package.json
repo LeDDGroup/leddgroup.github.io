@@ -15,7 +15,6 @@
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
     "@unocss/preset-wind4": "^66.3.2",
-    "autoprefixer": "^10.4.21",
     "unocss": "^66.3.2",
     "vite": "npm:rolldown-vite@^7.0.4",
     "wrangler": "^4.23.0"
