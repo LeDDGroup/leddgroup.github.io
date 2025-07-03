@@ -35,7 +35,7 @@ jobs:
         run: pnpm build
 
       - name: Deploy to cloudflare
-        run: pnpm deploy
+        run: pnpm deploy:cloudflare
         env:
           # https://developers.cloudflare.com/workers/wrangler/system-environment-variables/#supported-environment-variables
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

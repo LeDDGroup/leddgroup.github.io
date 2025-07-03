@@ -4,7 +4,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "wrangler pages deploy dist/ --project-name homepage"
+    "deploy:cloudflare": "wrangler pages deploy dist/ --project-name homepage"
   },
   "packageManager": "pnpm@10.12.4",
   "devDependencies": {
