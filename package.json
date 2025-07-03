@@ -11,11 +11,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.15.9",
+  "packageManager": "pnpm@10.12.4",
   "devDependencies": {
     "@unocss/preset-wind4": "^66.3.2",
     "autoprefixer": "^10.4.21",
     "unocss": "^66.3.2",
-    "vite": "^6.3.5"
+    "vite": "^7.0.1"
   }
 }
